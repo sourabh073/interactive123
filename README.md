@@ -1,4 +1,5 @@
 index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,6 +78,7 @@ index.html
 </html>
 
 styles.css
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
@@ -194,6 +196,7 @@ select {
 }
 
 script.js
+
 function selectOption(element, price) {
   const allOptions = document.querySelectorAll('.bundle-option');
   allOptions.forEach(opt => opt.classList.remove('selected'));
